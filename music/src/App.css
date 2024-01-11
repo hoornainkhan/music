@@ -1,0 +1,58 @@
+/* nav div.container-fluid{
+  position: fixed;
+  
+  height: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+} */
+div.box{
+  margin-bottom: 10px;
+  width: 250px;
+  z-index: 1;
+}
+div.container{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.search-input{
+margin-left: 43%;
+width: 250px;
+height:30px ;
+margin-top: 50px;
+
+}
+element.style.container{
+  margin-top: 100px;
+}
+.navbar-brand{
+  font-weight: 900;
+  font-size: 25px;
+  color: white;
+}
+.box:hover{
+  /* box-shadow: rgba(247, 245, 245, 0.35)35) 0px 5px 15px; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+  background-color: grey;
+  color: black;
+}
+
+.play-button {
+  z-index: 2;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  bottom: 150px;
+  left: 200px;
+
+}
+.mujic{
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 300px;
+}
